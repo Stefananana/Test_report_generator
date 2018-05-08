@@ -53,6 +53,28 @@
                     <th>Field</th>
                     <th>Submission</th>
                 </tr>
+                    <tr>
+                    <td>Test Object</td>
+                    <td>
+                    <input list="object" id="object_choice" name="object_choice" required />
+                    <datalist id="object">
+                        <option value="Feeder">
+                        <option value="Capacitors">
+                        <option value="FIU">
+                    </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Test Type</td>
+                    <td>
+                    <input list="test" id="test_choice" name="test_choice" required />
+                    <datalist id="test">
+                        <option value="Impedance">
+                        <option value="High Voltage withstand">
+                        <option value="Commisioning">
+                    </datalist>
+                    </td>
+                </tr>
                 <tr>
                     <td>Feeder Voltage</td>
                     <td>
