@@ -86,6 +86,12 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>teed feeder?</td>
+                    <td>
+                    <input id="tee" name="tee" type="radio" />
+                    </td>
+                </tr>
+                <tr>
                     <td>Client</td>
                     <td>
                     <input id="client" name="client" type="text" placeholder="Section" />
