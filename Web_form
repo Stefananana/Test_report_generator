@@ -2,220 +2,134 @@
 <html>
     <head>
         <title>Template</title>
-        <style>
-            h1{color:blue;background-
-
-color:gray;text-align:center;font-family:arial,sans-serif;padding:10px;border:5px solid blue;box-shadow:5px 5px #000000;}
-          
-
-  h3{color:green;background-color:gray;text-align:center;font-family:arial,sans-serif;padding:10px;border:5px solid yellow;}
-       
-
-     p{color:black;text-align:left;font-family:arial,sans-sarif;padding:10px;border:none;}
-            /*form
-
-{padding:10px;border:5px solid green;}*/
-            nav{padding:10px;border:5px solid green;}
-            footer
-
-{padding:10px;border:5px solid green;}
-            aside{float:right;width:50%;}
-            article{float:left;width:50%;}
-          
-
-  .clearing{clear:both;}
-            a:link {color:blue;}
-            a:visited{color:red;}
-            a:hover{color:purple;}
-        
-
-    /*a:active{color:purple;}*/
-            
-         </style>
+            <style>
+                h1{color:blue;background-color:gray;text-align:center;font-family:arial,sans-serif;padding:10px;border:5px solid blue;box-shadow:5px 5px #000000;}
+                h3{color:green;background-color:gray;text-align:center;font-family:arial,sans-serif;padding:10px;border:5px solid yellow;}
+                p{color:black;text-align:left;font-family:arial,sans-sarif;padding:10px;border:none;}
+                /*form{padding:10px;border:5px solid green;}*/
+                nav{padding:10px;border:5px solid green;}
+                footer{padding:10px;border:5px solid green;}
+                aside{float:right;width:50%;}
+                article{float:left;width:50%;}
+                .clearing{clear:both;}
+                a:link {color:blue;}
+                a:visited{color:red;}
+                a:hover{color:purple;}
+                /*a:active{color:purple;}*/
+            </style>
     </head>
    <body>
     <header>
         <h1>Test Report generator</h1>
- 
-
-       <p>This is for creating Test reports after field based electrical testing.</p>
+        <p>This is for creating Test reports after field based electrical testing.</p>
     </header>
     <nav>
         <div>
-        <a 
-
-href="somelink.com" align="center">heres a link</a>
+        <ahref="somelink.com" align="center">heres a link</a>
         <a href="somelink.com" align="center">heres another</a>
         </div>
-   
-
- </nav>
+    </nav>
     <article>
         <h3>Useful Links</h3>
-        <p>here is where I will add links to the suuplementary excel sheets used 
-
-for intermediate result calculations</p>
-        <p>I might try and make it possible to upload certain documents so information can 
-
-be quickly added without having to physically type everything in.</p>
+        <p>here is where I will add links to the suuplementary excel sheets used for intermediate result calculations</p>
+        <p>I might try and make it possible to upload certain documents so information can be quickly added without having to physically type everything in.</p>
         <div>
-
         </div>
-    </article>
-    <aside>
-        
-
-<h3>The other side</h3>
+     </article>
+     <aside>
+        <h3>The other side</h3>
         <p>Here is a place to post update information, potential outages, and general news.</p>
     </aside>
- 
-
-   <br class="clearing"/>
+    <br class="clearing"/>
     <h3>Test Report Generator</h3>
     <form action="http://foo.com"method="post">
-        <label>Basic 
-
-Information</label>
+        <label>Basic Information</label>
         <br />
-
         <table>
-                <tr>
-                    <th>Field</th>
-                    
-
-<th>Submission</th>
-                </tr>
-                    <tr>
-                    <td>Test Object</td>
-                    <td>
-   
-
+            <tr>
+                <th>Field</th>
+                <th>Submission</th>
+             </tr>
+             <tr>
+                <td>Test Object</td>
+                <td>
                  <input list="object" id="object_choice" name="object_choice" required />
-                    <datalist 
-
-id="object">
+                    <datalist id="object">
                         <option value="Feeder">
                         <option value="Capacitors">
-                     
-
-   <option value="FIU">
+                        <option value="FIU">
                     </datalist>
-                    </td>
-                </tr>
-                <tr>
-           
-
-         <td>Test Type</td>
-                    <td>
-                    <input list="test" id="test_choice" name="test_choice" 
-
-required />
+                 </td>
+             </tr>
+             <tr>
+                 <td>Test Type</td>
+                 <td>
+                 <input list="test" id="test_choice" name="test_choice" required />
                     <datalist id="test">
                         <option value="Impedance">
-                        
-
-<option value="High Voltage withstand">
+                        <option value="High Voltage withstand">
                         <option value="Commisioning">
                     </datalist>
-        
-
-            </td>
-                </tr>
-                <tr>
-                    <td>Feeder Voltage</td>
-                    <td>
-      
-
-              <input id="voltage" name="voltage" type="number" placeholder="11/33/132 kV" required />
-                        
-      
-
-              </td>
-                </tr>
-                <tr>
-                    <td>Feeder Number</td>
-                    <td>
-     
-
-               <input id="name" name="name" type="text" placeholder="S01, 92G" required/>
-                        
-                  
-
-  </td>    
-                </tr>
-                <tr>
-                    <td>Work Order Number</td>
-                    <td>
-         
-
-           <input id="WO" name="WO" type="number" placeholder="" />
-                    </td>
-                </tr>
-                
-
-<tr>
-                    <td>Substation from</td>
-                    <td>
-                    <input id="from" name="from" 
-
-type="number" placeholder="S 12345" />
-                    </td>
-                </tr>
-                <tr>
-                    
-
-<td>Substation to</td>
-                    <td>
-                    <input id="to" name="to" type="number" placeholder="S 12345" />
-  
-
                   </td>
-                </tr>
-                <tr>
-                    <td>teed feeder?</td>
-                    <td>
-  
-
+             </tr>
+             <tr>
+                  <td>Feeder Voltage</td>
+                  <td>
+                  <input id="voltage" name="voltage" type="number" placeholder="11/33/132 kV" required />
+                  </td>
+             </tr>
+             <tr>
+                  <td>Feeder Number</td>
+                  <td>
+                  <input id="name" name="name" type="text" placeholder="S01, 92G" required/>
+                  </td>    
+             </tr>
+             <tr>
+                  <td>Work Order Number</td>
+                  <td>
+                  <input id="WO" name="WO" type="number" placeholder="" />
+                  </td>
+             </tr>
+             <tr>
+                  <td>Substation from</td>
+                  <td>
+                  <input id="from" name="from" type="number" placeholder="S 12345" />
+                  </td>
+              </tr>
+              <tr>
+                  <td>Substation to</td>
+                  <td>
+                  <input id="to" name="to" type="number" placeholder="S 12345" />
+                  </td>
+              </tr>
+              <tr>
+                  <td>teed feeder?</td>
+                  <td>
                   <input id="tee" name="tee" type="radio" />
-                    </td>
-                </tr>
-                <tr>
-     
-
-               <td>Client</td>
-                    <td>
-                    <input id="client" name="client" type="text" 
-
-placeholder="Section" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Attention</td>
-   
-
-                 <td>
-                    <input id="person" name="person" type="name" placeholder="John Smith" />
-                  
-
-  </td>
-                <tr>
-                    <td>Date of test</td>
-                    <td>
-                    <input 
-
-id="date_tested" name="date_tested" type="date" placeholder="dd/mm/yyyy" />
-                    </td>
-                </tr>
-          
-
-  </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td>Client</td>
+                  <td>
+                  <input id="client" name="client" type="text" placeholder="Section" />
+                  </td>
+               </tr>
+               <tr>
+                  <td>Attention</td>
+                  <td>
+                  <input id="person" name="person" type="name" placeholder="John Smith" />
+                  </td>
+               <tr>
+                  <td>Date of test</td>
+                  <td>
+                  <input id="date_tested" name="date_tested" type="date" placeholder="dd/mm/yyyy" />
+                  </td>
+               </tr>
+          </table>
             <input id="submit" name="submit" type="submit" />
-        
     </form>
     <footer>
-        <div style="text-
-
-align:center">
+        <div style="text-align:center">
         <a href="https://www.google.com.au">google</a>
         </div>
     </footer>
